@@ -5,7 +5,8 @@ use_frameworks!
 target 'Social Login' do
     
     #pod 'Alamofire', '~> 3.4'
-    
+    pod 'TwitterKit'
+    pod 'Google/SignIn'
     
     target 'Social LoginTests' do
         inherit! :search_paths

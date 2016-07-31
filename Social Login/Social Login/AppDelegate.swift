@@ -8,25 +8,32 @@
 
 import UIKit
 import FBSDKCoreKit
+import Fabric
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    
     //MARK: url methods
     func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
-        print("###### URL : ")
-        print(url)
-        print("###### App : ")
-        print(app)
-        print(options["UIApplicationOpenURLOptionsSourceApplicationKey"])
-        return FBSDKApplicationDelegate.sharedInstance().application(app, openURL: url,  sourceApplication: options["UIApplicationOpenURLOptionsSourceApplicationKey"] as! String,
-                                                                     annotation: nil)
+        if Twitter.sharedInstance().application(app, openURL:url, options: options) {
+            return true
+        } else if FBSDKApplicationDelegate.sharedInstance().application(app, openURL: url,  sourceApplication: options["UIApplicationOpenURLOptionsSourceApplicationKey"] as! String,
+                                                                        annotation: nil) {
+            return true
+        } else if GIDSignIn.sharedInstance().handleURL(url,
+                                                       sourceApplication: options[UIApplicationOpenURLOptionsSourceApplicationKey] as? String,
+                                                       annotation: options[UIApplicationOpenURLOptionsAnnotationKey]) {
+            return true
+        }
+        return false
     }
     //MARK: application methods
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        Fabric.with([Twitter.self])
         return true
     }
     
