@@ -3,18 +3,18 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'Social Login' do
-  
-  pod 'Alamofire', '~> 3.4'
-
-
-  target 'Social LoginTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Social LoginUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+    
+    #pod 'Alamofire', '~> 3.4'
+    
+    
+    target 'Social LoginTests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+    target 'Social LoginUITests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
 end

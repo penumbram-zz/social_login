@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25250A05BF5127E6BE23B496 /* Pods_Social_LoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7649FAA017D7B234EBBDBD75 /* Pods_Social_LoginTests.framework */; };
-		926F1D3ACCAD11DECF99AEAA /* Pods_Social_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763E419653723E514A897691 /* Pods_Social_Login.framework */; };
+		4C27C043A38190A638B18A51 /* Pods_Social_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E199B28C7AD4AE4A42D96FEB /* Pods_Social_Login.framework */; };
+		7CBF9566AEB18F9E4E871E89 /* Pods_Social_LoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAAD3F4692412F7D417DABD /* Pods_Social_LoginTests.framework */; };
 		B7254DB01D4E340D00D4DC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DAF1D4E340D00D4DC62 /* AppDelegate.swift */; };
 		B7254DB21D4E340D00D4DC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DB11D4E340D00D4DC62 /* ViewController.swift */; };
 		B7254DB51D4E340D00D4DC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7254DB31D4E340D00D4DC62 /* Main.storyboard */; };
@@ -16,7 +16,10 @@
 		B7254DBA1D4E340D00D4DC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7254DB81D4E340D00D4DC62 /* LaunchScreen.storyboard */; };
 		B7254DC51D4E340D00D4DC62 /* Social_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DC41D4E340D00D4DC62 /* Social_LoginTests.swift */; };
 		B7254DD01D4E340D00D4DC62 /* Social_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DCF1D4E340D00D4DC62 /* Social_LoginUITests.swift */; };
-		EE4F2C36C132111BC909C094 /* Pods_Social_LoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171BB9E73AE1CB800BB2ED4 /* Pods_Social_LoginUITests.framework */; };
+		B7254DDE1D4E391000D4DC62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */; };
+		B7254DE21D4E3B3400D4DC62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */; };
+		B7BB320F1D4E3C880088E0E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BB320E1D4E3C880088E0E6 /* Bolts.framework */; };
+		EB19626B4560B1CC6CD7F590 /* Pods_Social_LoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB022FD642B210E5DDB588D /* Pods_Social_LoginUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 /* Begin PBXFileReference section */
 		13CDA1318BFC449D841F6E04 /* Pods-Social LoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social LoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social LoginUITests/Pods-Social LoginUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C254BE3657F4E2259AA28EB /* Pods-Social LoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social LoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social LoginUITests/Pods-Social LoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		763E419653723E514A897691 /* Pods_Social_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7649FAA017D7B234EBBDBD75 /* Pods_Social_LoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB022FD642B210E5DDB588D /* Pods_Social_LoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4A22538CC6A781242B0066 /* Pods-Social Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Login/Pods-Social Login.release.xcconfig"; sourceTree = "<group>"; };
 		B5623B547A17E3972C6CE9E6 /* Pods-Social Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Login/Pods-Social Login.debug.xcconfig"; sourceTree = "<group>"; };
 		B7254DAC1D4E340C00D4DC62 /* Social Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,9 +58,13 @@
 		B7254DCB1D4E340D00D4DC62 /* Social LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7254DCF1D4E340D00D4DC62 /* Social_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_LoginUITests.swift; sourceTree = "<group>"; };
 		B7254DD11D4E340D00D4DC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B7BB320E1D4E3C880088E0E6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BBAAD3F4692412F7D417DABD /* Pods_Social_LoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D457E4E73D05A0E859F37AED /* Pods-Social LoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social LoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social LoginTests/Pods-Social LoginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA052684CE71A7E63D17B29C /* Pods-Social LoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social LoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social LoginTests/Pods-Social LoginTests.release.xcconfig"; sourceTree = "<group>"; };
-		F171BB9E73AE1CB800BB2ED4 /* Pods_Social_LoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E199B28C7AD4AE4A42D96FEB /* Pods_Social_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926F1D3ACCAD11DECF99AEAA /* Pods_Social_Login.framework in Frameworks */,
+				B7254DDE1D4E391000D4DC62 /* FBSDKLoginKit.framework in Frameworks */,
+				B7254DE21D4E3B3400D4DC62 /* FBSDKCoreKit.framework in Frameworks */,
+				4C27C043A38190A638B18A51 /* Pods_Social_Login.framework in Frameworks */,
+				B7BB320F1D4E3C880088E0E6 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25250A05BF5127E6BE23B496 /* Pods_Social_LoginTests.framework in Frameworks */,
+				7CBF9566AEB18F9E4E871E89 /* Pods_Social_LoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE4F2C36C132111BC909C094 /* Pods_Social_LoginUITests.framework in Frameworks */,
+				EB19626B4560B1CC6CD7F590 /* Pods_Social_LoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,9 +101,12 @@
 		32D22FC95123093CB72FFEA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				763E419653723E514A897691 /* Pods_Social_Login.framework */,
-				7649FAA017D7B234EBBDBD75 /* Pods_Social_LoginTests.framework */,
-				F171BB9E73AE1CB800BB2ED4 /* Pods_Social_LoginUITests.framework */,
+				B7BB320E1D4E3C880088E0E6 /* Bolts.framework */,
+				B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */,
+				B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */,
+				E199B28C7AD4AE4A42D96FEB /* Pods_Social_Login.framework */,
+				BBAAD3F4692412F7D417DABD /* Pods_Social_LoginTests.framework */,
+				5EB022FD642B210E5DDB588D /* Pods_Social_LoginUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -570,6 +582,11 @@
 			baseConfigurationReference = B5623B547A17E3972C6CE9E6 /* Pods-Social Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tolgacaner.Social-Login";
@@ -582,6 +599,11 @@
 			baseConfigurationReference = 9A4A22538CC6A781242B0066 /* Pods-Social Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tolgacaner.Social-Login";

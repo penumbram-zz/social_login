@@ -7,16 +7,26 @@
 //
 
 import UIKit
+import FBSDKCoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    
+    //MARK: url methods
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        print("###### URL : ")
+        print(url)
+        print("###### App : ")
+        print(app)
+        print(options["UIApplicationOpenURLOptionsSourceApplicationKey"])
+        return FBSDKApplicationDelegate.sharedInstance().application(app, openURL: url,  sourceApplication: options["UIApplicationOpenURLOptionsSourceApplicationKey"] as! String,
+                                                                     annotation: nil)
+    }
+    //MARK: application methods
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
         return true
     }
     
