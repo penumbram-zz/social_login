@@ -34,6 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Fabric.with([Twitter.self])
+        _ = AbstractFactoryUser()
+        let watchFactory = WatchFactory.getFactory(WatchSize._38mm)
+        watchFactory.createDial(MaterialType.Gold)
+        let c = CardFactory.createCard(.FacelessManipulator)
+        print(c?.toString())
         return true
     }
     

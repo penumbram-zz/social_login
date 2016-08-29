@@ -18,6 +18,11 @@
 		B7254DD01D4E340D00D4DC62 /* Social_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DCF1D4E340D00D4DC62 /* Social_LoginUITests.swift */; };
 		B7254DDE1D4E391000D4DC62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */; };
 		B7254DE21D4E3B3400D4DC62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */; };
+		B780661A1D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */; };
+		B780661D1D745E2200678E1C /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780661C1D745E2200678E1C /* Exception.swift */; };
+		B780661F1D745F4800678E1C /* NotImplementedException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780661E1D745F4800678E1C /* NotImplementedException.swift */; };
+		B78066221D7462C800678E1C /* WatchAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066211D7462C800678E1C /* WatchAbstractFactory.swift */; };
+		B78066241D74703800678E1C /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066231D74703800678E1C /* FactoryMethod.swift */; };
 		B7BB320F1D4E3C880088E0E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BB320E1D4E3C880088E0E6 /* Bolts.framework */; };
 		B7BB32121D4E75980088E0E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */; };
 		B7BB32131D4E75980088E0E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */; };
@@ -64,6 +69,11 @@
 		B7254DD11D4E340D00D4DC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractFactory-SwiftInt-NSNumber.swift"; sourceTree = "<group>"; };
+		B780661C1D745E2200678E1C /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		B780661E1D745F4800678E1C /* NotImplementedException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedException.swift; sourceTree = "<group>"; };
+		B78066211D7462C800678E1C /* WatchAbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchAbstractFactory.swift; sourceTree = "<group>"; };
+		B78066231D74703800678E1C /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		B7BB320E1D4E3C880088E0E6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7BB32151D4E76160088E0E6 /* Social Login-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Social Login-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -165,6 +175,9 @@
 				B7254DB81D4E340D00D4DC62 /* LaunchScreen.storyboard */,
 				B7254DBB1D4E340D00D4DC62 /* Info.plist */,
 				B7BB32181D4E7E200088E0E6 /* GoogleSignInHelper.swift */,
+				B780661B1D745E1000678E1C /* GoF */,
+				B780661C1D745E2200678E1C /* Exception.swift */,
+				B780661E1D745F4800678E1C /* NotImplementedException.swift */,
 			);
 			path = "Social Login";
 			sourceTree = "<group>";
@@ -185,6 +198,24 @@
 				B7254DD11D4E340D00D4DC62 /* Info.plist */,
 			);
 			path = "Social LoginUITests";
+			sourceTree = "<group>";
+		};
+		B780661B1D745E1000678E1C /* GoF */ = {
+			isa = PBXGroup;
+			children = (
+				B78066201D74628700678E1C /* AbstractFactory */,
+			);
+			name = GoF;
+			sourceTree = "<group>";
+		};
+		B78066201D74628700678E1C /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */,
+				B78066211D7462C800678E1C /* WatchAbstractFactory.swift */,
+				B78066231D74703800678E1C /* FactoryMethod.swift */,
+			);
+			name = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,8 +497,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7254DB21D4E340D00D4DC62 /* ViewController.swift in Sources */,
+				B78066221D7462C800678E1C /* WatchAbstractFactory.swift in Sources */,
+				B780661D1D745E2200678E1C /* Exception.swift in Sources */,
+				B780661A1D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift in Sources */,
 				B7BB32191D4E7E200088E0E6 /* GoogleSignInHelper.swift in Sources */,
+				B780661F1D745F4800678E1C /* NotImplementedException.swift in Sources */,
 				B7254DB01D4E340D00D4DC62 /* AppDelegate.swift in Sources */,
+				B78066241D74703800678E1C /* FactoryMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
