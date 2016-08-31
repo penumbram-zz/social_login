@@ -23,6 +23,7 @@
 		B780661F1D745F4800678E1C /* NotImplementedException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780661E1D745F4800678E1C /* NotImplementedException.swift */; };
 		B78066221D7462C800678E1C /* WatchAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066211D7462C800678E1C /* WatchAbstractFactory.swift */; };
 		B78066241D74703800678E1C /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066231D74703800678E1C /* FactoryMethod.swift */; };
+		B78066291D74C91C00678E1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78066281D74C91C00678E1C /* GoogleService-Info.plist */; };
 		B7BB320F1D4E3C880088E0E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BB320E1D4E3C880088E0E6 /* Bolts.framework */; };
 		B7BB32121D4E75980088E0E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */; };
 		B7BB32131D4E75980088E0E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */; };
@@ -74,6 +75,9 @@
 		B780661E1D745F4800678E1C /* NotImplementedException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedException.swift; sourceTree = "<group>"; };
 		B78066211D7462C800678E1C /* WatchAbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchAbstractFactory.swift; sourceTree = "<group>"; };
 		B78066231D74703800678E1C /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		B78066281D74C91C00678E1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B780662A1D761A1000678E1C /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
+		B780662E1D7621B300678E1C /* TacoDecorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TacoDecorator.playground; sourceTree = "<group>"; };
 		B7BB320E1D4E3C880088E0E6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7BB32151D4E76160088E0E6 /* Social Login-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Social Login-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */,
+				B780661B1D745E1000678E1C /* GoF */,
 				B7254DAE1D4E340D00D4DC62 /* Social Login */,
 				B7254DC31D4E340D00D4DC62 /* Social LoginTests */,
 				B7254DCE1D4E340D00D4DC62 /* Social LoginUITests */,
@@ -174,8 +179,8 @@
 				B7254DB61D4E340D00D4DC62 /* Assets.xcassets */,
 				B7254DB81D4E340D00D4DC62 /* LaunchScreen.storyboard */,
 				B7254DBB1D4E340D00D4DC62 /* Info.plist */,
+				B78066281D74C91C00678E1C /* GoogleService-Info.plist */,
 				B7BB32181D4E7E200088E0E6 /* GoogleSignInHelper.swift */,
-				B780661B1D745E1000678E1C /* GoF */,
 				B780661C1D745E2200678E1C /* Exception.swift */,
 				B780661E1D745F4800678E1C /* NotImplementedException.swift */,
 			);
@@ -203,9 +208,13 @@
 		B780661B1D745E1000678E1C /* GoF */ = {
 			isa = PBXGroup;
 			children = (
+				B780662C1D7620E000678E1C /* FactoryMethod */,
 				B78066201D74628700678E1C /* AbstractFactory */,
+				B78066271D7485D600678E1C /* Builder */,
+				B780662D1D7620EC00678E1C /* Decorator */,
 			);
 			name = GoF;
+			path = "Social Login";
 			sourceTree = "<group>";
 		};
 		B78066201D74628700678E1C /* AbstractFactory */ = {
@@ -213,9 +222,32 @@
 			children = (
 				B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */,
 				B78066211D7462C800678E1C /* WatchAbstractFactory.swift */,
-				B78066231D74703800678E1C /* FactoryMethod.swift */,
 			);
 			name = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		B78066271D7485D600678E1C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				B780662A1D761A1000678E1C /* Builder.playground */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		B780662C1D7620E000678E1C /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B78066231D74703800678E1C /* FactoryMethod.swift */,
+			);
+			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		B780662D1D7620EC00678E1C /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				B780662E1D7621B300678E1C /* TacoDecorator.playground */,
+			);
+			name = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +364,7 @@
 			files = (
 				B7254DBA1D4E340D00D4DC62 /* LaunchScreen.storyboard in Resources */,
 				B7BB32121D4E75980088E0E6 /* GoogleService-Info.plist in Resources */,
+				B78066291D74C91C00678E1C /* GoogleService-Info.plist in Resources */,
 				B7254DB71D4E340D00D4DC62 /* Assets.xcassets in Resources */,
 				B7254DB51D4E340D00D4DC62 /* Main.storyboard in Resources */,
 			);
