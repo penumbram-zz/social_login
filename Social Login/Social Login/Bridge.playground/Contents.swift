@@ -1,38 +1,55 @@
 import Foundation
 
-protocol Appliance {
-    func run()
+protocol Organ {
+    func function()
 }
 
-protocol Switch {
-    var appliance : Appliance {get set}
+protocol Operative {
+    var organ : Organ {get set}
+    func operate()
 }
 
-class RemoteControl : Switch {
-    var appliance: Appliance
+class Brain : Operative {
+    var organ: Organ
     
-    func turnOn() {
-        self.appliance.run()
+    func operate() {
+        self.organ.function()
     }
     
-    init(appliance: Appliance) {
-        self.appliance = appliance
+    init(organ: Organ) {
+        self.organ = organ
     }
 }
 
-class Television: Appliance {
-    func run() {
-        print("tv turned on")
+class Heart: Organ {
+    func function() {
+        print("Heart is pumping blood")
     }
 }
 
-class VacuumCleaner: Appliance {
-    func run() {
-        print("vacuum cleaner turned on")
+class Stomach: Organ {
+    func function() {
+        print("Stomach is digesting physically")
     }
 }
 
-let tvRemoteControl = RemoteControl(appliance: Television())
-tvRemoteControl.turnOn()
-let vacuumCleanerRemoteControl = RemoteControl(appliance: VacuumCleaner())
-vacuumCleanerRemoteControl.turnOn()
+class Liver: Organ {
+    func function() {
+        print("Liver is detoxificating")
+    }
+}
+
+class Thyroid: Organ {
+    func function() {
+        print("Thyroid is secreting hormones")
+    }
+}
+
+let heartControl = Brain(organ: Heart())
+heartControl.operate()
+let stomachControl = Brain(organ: Stomach())
+stomachControl.operate()
+let liverControl = Brain(organ: Liver())
+liverControl.operate()
+let thyroidControl = Brain(organ: Thyroid())
+thyroidControl.operate()
