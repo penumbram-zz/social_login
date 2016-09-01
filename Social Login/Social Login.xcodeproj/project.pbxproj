@@ -73,6 +73,7 @@
 		B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		B76B9CCE1D7758B2007D8AF5 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
+		B76B9CD01D78184A007D8AF5 /* Bridge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bridge.playground; sourceTree = "<group>"; };
 		B780661C1D745E2200678E1C /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 		B780661E1D745F4800678E1C /* NotImplementedException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedException.swift; sourceTree = "<group>"; };
 		B78066281D74C91C00678E1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		B70DA4BA1D77000A003B9771 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				B76B9CCF1D781836007D8AF5 /* Bridge */,
 				B76B9CCD1D7758A7007D8AF5 /* Adapter */,
 				B780662D1D7620EC00678E1C /* Decorator */,
 			);
@@ -256,6 +258,14 @@
 				B76B9CCE1D7758B2007D8AF5 /* Adapter.playground */,
 			);
 			name = Adapter;
+			sourceTree = "<group>";
+		};
+		B76B9CCF1D781836007D8AF5 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				B76B9CD01D78184A007D8AF5 /* Bridge.playground */,
+			);
+			name = Bridge;
 			sourceTree = "<group>";
 		};
 		B780661B1D745E1000678E1C /* GoF */ = {
