@@ -1,15 +1,6 @@
-//
-//  WatchAbstractFactory.swift
-//  Social Login
-//
-//  Created by Tolga Caner on 29/08/16.
-//
-//
-
 import UIKit
 
 //Enums
-
 enum BandType : String {
     case Milanese = "Milanese",
     Classic = "Classic",
@@ -131,12 +122,12 @@ class GoldDial: IWatchDial {
 class WatchFactory {
     
     func createBand(bandType: BandType) -> IWatchBand {
-        NotImplementedException().Throw()
+        //NotImplementedException().Throw()
         fatalError("Stopped!")
     }
     
     func createDial(materialtype: MaterialType) -> IWatchDial{
-        NotImplementedException().Throw()
+        //NotImplementedException().Throw()
         fatalError("Stopped!")
     }
     
@@ -215,3 +206,5 @@ class Watch38mmFactory: WatchFactory{
     }
 }
 
+let watchFactory = WatchFactory.getFactory(WatchSize._38mm)
+watchFactory.createDial(MaterialType.Gold)

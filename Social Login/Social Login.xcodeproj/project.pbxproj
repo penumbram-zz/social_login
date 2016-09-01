@@ -18,11 +18,8 @@
 		B7254DD01D4E340D00D4DC62 /* Social_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7254DCF1D4E340D00D4DC62 /* Social_LoginUITests.swift */; };
 		B7254DDE1D4E391000D4DC62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */; };
 		B7254DE21D4E3B3400D4DC62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */; };
-		B780661A1D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */; };
 		B780661D1D745E2200678E1C /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780661C1D745E2200678E1C /* Exception.swift */; };
 		B780661F1D745F4800678E1C /* NotImplementedException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780661E1D745F4800678E1C /* NotImplementedException.swift */; };
-		B78066221D7462C800678E1C /* WatchAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066211D7462C800678E1C /* WatchAbstractFactory.swift */; };
-		B78066241D74703800678E1C /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78066231D74703800678E1C /* FactoryMethod.swift */; };
 		B78066291D74C91C00678E1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78066281D74C91C00678E1C /* GoogleService-Info.plist */; };
 		B7BB320F1D4E3C880088E0E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BB320E1D4E3C880088E0E6 /* Bolts.framework */; };
 		B7BB32121D4E75980088E0E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */; };
@@ -55,6 +52,11 @@
 		5EB022FD642B210E5DDB588D /* Pods_Social_LoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4A22538CC6A781242B0066 /* Pods-Social Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Login/Pods-Social Login.release.xcconfig"; sourceTree = "<group>"; };
 		B5623B547A17E3972C6CE9E6 /* Pods-Social Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Login/Pods-Social Login.debug.xcconfig"; sourceTree = "<group>"; };
+		B70DA4B41D76FCB8003B9771 /* AbstractFactory-SwiftInt-NSNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AbstractFactory-SwiftInt-NSNumber.playground"; sourceTree = "<group>"; };
+		B70DA4B61D76FEF1003B9771 /* AbstractFactory-Watch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AbstractFactory-Watch.playground"; sourceTree = "<group>"; };
+		B70DA4B71D76FF88003B9771 /* FactoryMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryMethod.playground; sourceTree = "<group>"; };
+		B70DA4BE1D77167C003B9771 /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; };
+		B70DA4BF1D775719003B9771 /* Prototype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Prototype.playground; sourceTree = "<group>"; };
 		B7254DAC1D4E340C00D4DC62 /* Social Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7254DAF1D4E340D00D4DC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7254DB11D4E340D00D4DC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +72,9 @@
 		B7254DD11D4E340D00D4DC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7254DDD1D4E391000D4DC62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B7254DE11D4E3B3400D4DC62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AbstractFactory-SwiftInt-NSNumber.swift"; sourceTree = "<group>"; };
+		B76B9CCE1D7758B2007D8AF5 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
 		B780661C1D745E2200678E1C /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 		B780661E1D745F4800678E1C /* NotImplementedException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedException.swift; sourceTree = "<group>"; };
-		B78066211D7462C800678E1C /* WatchAbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchAbstractFactory.swift; sourceTree = "<group>"; };
-		B78066231D74703800678E1C /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		B78066281D74C91C00678E1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B780662A1D761A1000678E1C /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; };
 		B780662E1D7621B300678E1C /* TacoDecorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TacoDecorator.playground; sourceTree = "<group>"; };
@@ -145,10 +145,55 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B70DA4B81D76FFC0003B9771 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				B780661C1D745E2200678E1C /* Exception.swift */,
+				B780661E1D745F4800678E1C /* NotImplementedException.swift */,
+			);
+			name = Exception;
+			sourceTree = "<group>";
+		};
+		B70DA4B91D76FFFD003B9771 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				B780662C1D7620E000678E1C /* FactoryMethod */,
+				B78066201D74628700678E1C /* AbstractFactory */,
+				B78066271D7485D600678E1C /* Builder */,
+				B70DA4BC1D771652003B9771 /* Prototype */,
+				B70DA4BD1D77165C003B9771 /* Singleton */,
+			);
+			name = Creational;
+			sourceTree = "<group>";
+		};
+		B70DA4BA1D77000A003B9771 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				B76B9CCD1D7758A7007D8AF5 /* Adapter */,
+				B780662D1D7620EC00678E1C /* Decorator */,
+			);
+			name = Structural;
+			sourceTree = "<group>";
+		};
+		B70DA4BC1D771652003B9771 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				B70DA4BF1D775719003B9771 /* Prototype.playground */,
+			);
+			name = Prototype;
+			sourceTree = "<group>";
+		};
+		B70DA4BD1D77165C003B9771 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				B70DA4BE1D77167C003B9771 /* Singleton.playground */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
 		B7254DA31D4E340C00D4DC62 = {
 			isa = PBXGroup;
 			children = (
-				B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */,
 				B780661B1D745E1000678E1C /* GoF */,
 				B7254DAE1D4E340D00D4DC62 /* Social Login */,
 				B7254DC31D4E340D00D4DC62 /* Social LoginTests */,
@@ -157,6 +202,7 @@
 				869E9D1CCE5D96CA4EB29400 /* Pods */,
 				32D22FC95123093CB72FFEA1 /* Frameworks */,
 				B7BB32151D4E76160088E0E6 /* Social Login-Bridging-Header.h */,
+				B7BB32111D4E75980088E0E6 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +219,7 @@
 		B7254DAE1D4E340D00D4DC62 /* Social Login */ = {
 			isa = PBXGroup;
 			children = (
+				B70DA4B81D76FFC0003B9771 /* Exception */,
 				B7254DAF1D4E340D00D4DC62 /* AppDelegate.swift */,
 				B7254DB11D4E340D00D4DC62 /* ViewController.swift */,
 				B7254DB31D4E340D00D4DC62 /* Main.storyboard */,
@@ -181,8 +228,6 @@
 				B7254DBB1D4E340D00D4DC62 /* Info.plist */,
 				B78066281D74C91C00678E1C /* GoogleService-Info.plist */,
 				B7BB32181D4E7E200088E0E6 /* GoogleSignInHelper.swift */,
-				B780661C1D745E2200678E1C /* Exception.swift */,
-				B780661E1D745F4800678E1C /* NotImplementedException.swift */,
 			);
 			path = "Social Login";
 			sourceTree = "<group>";
@@ -205,13 +250,19 @@
 			path = "Social LoginUITests";
 			sourceTree = "<group>";
 		};
+		B76B9CCD1D7758A7007D8AF5 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B76B9CCE1D7758B2007D8AF5 /* Adapter.playground */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
 		B780661B1D745E1000678E1C /* GoF */ = {
 			isa = PBXGroup;
 			children = (
-				B780662C1D7620E000678E1C /* FactoryMethod */,
-				B78066201D74628700678E1C /* AbstractFactory */,
-				B78066271D7485D600678E1C /* Builder */,
-				B780662D1D7620EC00678E1C /* Decorator */,
+				B70DA4B91D76FFFD003B9771 /* Creational */,
+				B70DA4BA1D77000A003B9771 /* Structural */,
 			);
 			name = GoF;
 			path = "Social Login";
@@ -220,8 +271,8 @@
 		B78066201D74628700678E1C /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				B78066191D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift */,
-				B78066211D7462C800678E1C /* WatchAbstractFactory.swift */,
+				B70DA4B41D76FCB8003B9771 /* AbstractFactory-SwiftInt-NSNumber.playground */,
+				B70DA4B61D76FEF1003B9771 /* AbstractFactory-Watch.playground */,
 			);
 			name = AbstractFactory;
 			sourceTree = "<group>";
@@ -237,7 +288,7 @@
 		B780662C1D7620E000678E1C /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
-				B78066231D74703800678E1C /* FactoryMethod.swift */,
+				B70DA4B71D76FF88003B9771 /* FactoryMethod.playground */,
 			);
 			name = FactoryMethod;
 			sourceTree = "<group>";
@@ -530,13 +581,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7254DB21D4E340D00D4DC62 /* ViewController.swift in Sources */,
-				B78066221D7462C800678E1C /* WatchAbstractFactory.swift in Sources */,
 				B780661D1D745E2200678E1C /* Exception.swift in Sources */,
-				B780661A1D74593500678E1C /* AbstractFactory-SwiftInt-NSNumber.swift in Sources */,
 				B7BB32191D4E7E200088E0E6 /* GoogleSignInHelper.swift in Sources */,
 				B780661F1D745F4800678E1C /* NotImplementedException.swift in Sources */,
 				B7254DB01D4E340D00D4DC62 /* AppDelegate.swift in Sources */,
-				B78066241D74703800678E1C /* FactoryMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,10 +731,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
-					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Social Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tolgacaner.Social-Login";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Social Login-Bridging-Header.h";
@@ -703,10 +751,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
-					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Social Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tolgacaner.Social-Login";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Social Login-Bridging-Header.h";

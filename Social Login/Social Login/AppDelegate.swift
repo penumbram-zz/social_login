@@ -36,19 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Fabric.with([Twitter.self])
         FIRApp.configure()
-        // Design tests
-        _ = AbstractFactoryUser()
-        let watchFactory = WatchFactory.getFactory(WatchSize._38mm)
-        watchFactory.createDial(MaterialType.Gold)
-        let c = CardFactory.createCard(.FacelessManipulator)
-        print(c?.toString())
-
-        var taco : Taco = EmptyTaco()
-        print(taco.description)
-        taco = BeefedTaco(decoratedTaco: taco)
-        print(taco.description)
-        taco = SaucedTaco(decoratedTaco: taco)
-        print(taco.description)
         return true
     }
     

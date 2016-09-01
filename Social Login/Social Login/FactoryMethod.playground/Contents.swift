@@ -1,10 +1,4 @@
-//
-//  FactoryMethod.swift
-//  Social Login
-//
-//  Created by Tolga Caner on 29/08/16.
-//
-//
+import Foundation
 
 protocol Card {
     var name: String? {get set}
@@ -99,3 +93,6 @@ class CardFactory {
         }
     }
 }
+
+let c = CardFactory.createCard(.FacelessManipulator)
+print(c?.toString())

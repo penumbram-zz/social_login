@@ -1,14 +1,4 @@
-//
-//  AbstractFactory-SwiftInt-NSNumber.swift
-//  Social Login
-//
-//  Created by Tolga Caner on 29/08/16.
-//
-//
-
 import Foundation
-import UIKit
-
 //Abstract Product
 protocol Number {
     func captureValue(string: String)
@@ -88,4 +78,4 @@ class AbstractFactoryUser {
     }
 }
 
-
+_ = AbstractFactoryUser()
